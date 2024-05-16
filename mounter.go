@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/loginoff/nutanix-backup/nutanixapi"
+	"github.com/jsturma/nutanix-protect/nutanixapi"
 	"os"
 	"path/filepath"
 
