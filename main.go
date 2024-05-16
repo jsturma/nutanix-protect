@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/loginoff/nutanix-backup/nutanixapi"
+	"github.com/jsturma/nutanix-protect/nutanixapi"
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/jinzhu/configor"
