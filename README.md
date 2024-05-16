@@ -1,4 +1,4 @@
-# Nutanix-backup (forked from Nutanix-backup)
+# Nutanix-protect (forked from Nutanix-backup)
 
 A small utility for backing up VMs and vdisks on a Nutanix Acropolis cluster.
 
@@ -20,7 +20,7 @@ It works as follows:
 * Make sure you whitelist your backup machine, so you can mount Nutanix storage containers over NFS. In PRISM go to the little cog icon (top right) -> Filesystem Whitelists -> add the address of your backup machine.
 * Create a configuration file (see `backupconf.yml.example`) where you enumerate all the VMs and disks on these VMs, that you want to backup.
 
-```nutanix-backup --username nutanix --password nutanix/4u -conf backupconf.yml```
+```nutanix-protect --username nutanix --password nutanix/4u -conf backupconf.yml```
 
 ## Manually restoring the images
 
