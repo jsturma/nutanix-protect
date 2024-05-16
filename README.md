@@ -32,7 +32,7 @@ It works as follows:
 
 ## Building locally
 * Install GO
-* go get github.com/loginoff/nutanix-backup
+* go get github.com/jsturma/nutanix-protect
 
 ## Building using Docker
 * Just make sure you have a running Docker daemon
