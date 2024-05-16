@@ -1,4 +1,4 @@
-# Nutanix-backup
+# Nutanix-backup (forked from Nutanix-backup)
 
 A small utility for backing up VMs and vdisks on a Nutanix Acropolis cluster.
 
